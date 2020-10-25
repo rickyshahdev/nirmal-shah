@@ -1,0 +1,14 @@
+body{
+  background-image: url(./image/ryoji-iwata-5siQcvSxCP8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color:black;
+}
+
+.container{
+
+ margin-left: 50px;
+  margin-top: 300px;
+}
