@@ -1,3 +1,8 @@
+:root {
+  --animate-duration: 9s;
+  --animate-delay: 0.9s;
+}
+
 body{
 
 }
@@ -7,14 +12,14 @@ body{
 }
 .card-img-overlay{
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .fa{
   float: right;
 }
 
 #Bio{
-  margin-top: -200px;
+  margin-top: -160px;
 }
 
 #Bio span {
