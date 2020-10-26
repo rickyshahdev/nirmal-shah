@@ -1,14 +1,24 @@
 body{
-  background-image: url(./image/ryoji-iwata-5siQcvSxCP8-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color:black;
+
 }
 
-.container{
+#Header a:hover{
+  color: white;
+}
+.card-img-overlay{
+  text-align: center;
+  margin-top: 200px;
+}
+.fa{
+  float: right;
+}
 
- margin-left: 50px;
-  margin-top: 300px;
+#Bio{
+  margin-top: -200px;
+}
+
+#Bio span {
+
+  padding: 10px 20px 10px 20px;
+
 }
