@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>NIRMAL SHAH</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- bootstrap -->
@@ -14,19 +16,19 @@
 
 
   </head>
-  <body data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target=".navbar"  data-offset="10">
      <div id="Header">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
           <div class="container">
               <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span></button>
-                <a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
+                <a href="#" class="navbar-brand"><h3>Nirmal Shah</h3></a>
                 <div class="colapse navbar-collapse" id="Navbar">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#Bio">my Bio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">more About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#About">About Me</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="image/Nirmal-Shah.pdf">Resume</a></li>
                   </ul>
                 </div>
           </div>
@@ -41,24 +43,186 @@
       <p class="card-text wow animate__backInLeft animate__slower">I Am A Full-Stack Developer</p>
     </div>
   </div>
+  <!-- projects -->
+  <div id="projects">
+    <div class="container tex-center">
+    <span class="bg-dark text-white ">Projects</span><hr class="bg-dark">
+    <div class="row">
+      <div class="col-md-6">
+        <a target="_blank" href="https://github.com/rickyshahdev/crud"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
+        <a target="_blank" href="https://theguitarworld.herokuapp.com">The Guitar World</i></a>
+        <p class="bg-dark text-white mt-2" >An app buying guitars with authentication and only admin access to add,edit and delete.Used MongoDB,Express,Node.jsand deployed to heroku. </p>
+        <img src="image/guitarworld.png" class="img-fluid"alt="">
+        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-1">
 
+      </div>
+      <div class="col-md-6">
+        <a target="_blank" href="https://github.com/sammyschneider/Project-3"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
+        <a target="_blank" href="https://restaurantsonthego.herokuapp.com">Restaurant On The Go</i></a>
+        <p class="bg-dark text-white mt-2" >An app to find top 10 restaurants of any city.Add Review and favorite restaurants. Build with React.js, MongoDB,and Zomato Api.Used Github for group management.</p>
+        <img src="image/restaurantonthego.png" class="img-fluid"alt="">
+        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-2" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <a target="_blank" href="https://github.com/jmuhlenberg/MERN_CRUD_App"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
+        <a target="_blank" href="https://song-diary.herokuapp.com">Song-Diary</i></a>
+        <p class="bg-dark text-white mt-2" >First group project. App to add favorite videos in your playlist. Build with React.js, MongoDB, Github issues for project management.</p>
+        <img src="image/songdiary.png" class="img-fluid"alt="">
+        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-3" alt="">
+      </div>
+
+      <div class="col-md-6">
+        <a target="_blank" href="https://github.com/rickyshahdev/rickyshahdev.github.io"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
+        <a target="_blank" href="https://rickyshahdev.github.io/">Pokemon-World</i></a>
+        <p class="bg-dark text-white mt-2" >First project build by me. Check out all the pokemon and appealing images of the pokemon world. Build with HTML,CSS,Javascript and PokeAPI</p>
+        <img src="image/pokemonworld.png" class="img-fluid"alt="">
+        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-4">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <a target="_blank" href="https://github.com/rickyshahdev/healthdiary"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
+        <a target="_blank" href="https://healthdir.herokuapp.com/">Health-Diary</i></a>
+        <p class="bg-dark text-white mt-2" >An app to record all your health related events. Build with PHP,React and postgreSQL.Deployed to heroku</p>
+        <img src="image/healthdiary.png" class="img-fluid"alt="">
+        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-5">
+      </div>
+      <div class="col-md-6">
+        <a target="_blank" href="https://github.com/rickyshahdev/guesslettersinword"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
+        <a href="#play-video-6" data-toggle="modal" data-target="#play-video-6">Guess Letter In Words</i></a>
+        <p class="bg-dark text-white mt-2" >Guess letter In Word game. You have to guess correct letter for given word executed in terminal. Build using PHP</p>
+        <img src="image/gliw.png" class="img-fluid"alt="">
+        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-6">
+      </div>
+  </div>
+    <div class="modal fade" id="play-video-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">The Guitar World</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" controls>
+          <source src="./image/guitarworld.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="play-video-2">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Restaurant On The Go</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" controls>
+          <source src="./image/restaurantonthego.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="play-video-3">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Pokemon World</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" controls>
+          <source src="./image/songdiary.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="play-video-4">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Song Diary</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" controls>
+          <source src="./image/pokemonworld.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="modal fade" id="play-video-5">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Health Diary</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" controls>
+          <source src="./image/healthdiary.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="play-video-6">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Guess Letters In Words Game</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" controls>
+          <source src="./image/gliw.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+
+  </div>
    <!-- myBio-->
-    <div id="Bio">
+    <div id="About">
       <div class="container">
         <div class="row">
           <div class="col">
               <div id="AboutData">
+                <span class="bg-dark text-white ">About Me</span><hr class="bg-dark">
                 <div class="card bg-white">
-                  <div class="card-header bg-dark">
-                    <a target="_blank" href="https://www.linkedin.com/in/nirmal-ricky-shah-b150441a7/"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    <a target="_blank" href="https://github.com/rickyshahdev"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
-                  </div>
                   <div class="card-title my-5">
                     <div class="media">
-                      <img src="image/ricky.jpg" alt="profile pic" width="250" height="250" class="img-fluid rounded-top mx-5 wow animate__zoomIn">
+                      <img src="image/ricky.jpg" alt="profile pic" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
                        <div class="media-body">
 
                          <div class="container">
+                           <p>I am a developer who aims to create work that embodies uniqueness creativity and clarity. A highly passionate and hardworking person who can come up with new creative ideas and solutions for any problems and situations.</p>
                            <table class="table table-responsive ml-4">
                              <tr>
                                <td class="text-muted">Alias</td>
@@ -71,19 +235,28 @@
                                <td>he/him</td>
                              </tr>
                              <tr>
-                               <td class="text-muted">Age</td>
+                               <td class="text-muted">Address</td>
                                <td>:</td>
-                               <td>30 years young</td>
+                               <td>27 Putnam St, Somerville, MA, USA</td>
                              </tr>
                              <tr>
                                <td class="text-muted">Email</td>
                                <td>:</td>
                                <td>shahhr1cky@gmail.com</td>
                              </tr>
+                             <tr>
+                               <td class="text-muted">Phone no</td>
+                               <td>:</td>
+                               <td>+17814753226</td>
+                             </tr>
                            </table>
                          </div>
                        </div>
                     </div>
+                  </div>
+                  <div class="card-footer bg-dark">
+                    <a target="_blank" href="https://www.linkedin.com/in/nirmal-ricky-shah-b150441a7/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    <a target="_blank" href="https://github.com/rickyshahdev"><i class="fa fa-github fa-2x mx-3 md-6"></i></a>
                   </div>
                 </div>
               </div>
@@ -95,13 +268,15 @@
       <div class="container mt-4">
         <div class="row">
           <div class="col">
-            <span class="bg-dark text-white ">More About Me</span><hr class="bg-dark">
-            <p>I am a highly passionate person ready to tackle any hardships and solve problems by hook or by crook.</p>
+
+
           </div>
         </div>
 
       </div>
+
     </div>
+
 
 
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

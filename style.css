@@ -1,14 +1,15 @@
-:root {
-  --animate-duration: 9s;
-  --animate-delay: 0.9s;
+*{
+  font-family: 'Open Sans', sans-serif;
 }
 
 body{
-
+overflow-y: scroll;
 }
 
 #Header a:hover{
   color: white;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 .card-img-overlay{
   text-align: center;
@@ -18,12 +19,28 @@ body{
   float: right;
 }
 
-#Bio{
+/* #Bio{
   margin-top: -160px;
+} */
+
+#About span {
+padding: 10px 20px 10px 20px;
 }
-
-#Bio span {
-
+#projects{
+  margin-top: 20px;
+}
+#projects span {
   padding: 10px 20px 10px 20px;
-
+}
+.play-btn {
+  width: 50px;
+  position: relative;
+  top: -35%;
+  left: 42%;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0;
+}
+.col-md-6:hover .play-btn{
+  opacity:1;
 }
