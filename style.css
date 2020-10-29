@@ -8,7 +8,6 @@ overflow-y: scroll;
 
 #Header a:hover{
   color: white;
-  text-decoration: underline;
   transition: 0.5s;
 }
 .card-img-overlay{
