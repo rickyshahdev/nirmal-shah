@@ -2,10 +2,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-body{
-overflow-y: scroll;
-}
-
 #Header a:hover{
   color: white;
   transition: 0.5s;
