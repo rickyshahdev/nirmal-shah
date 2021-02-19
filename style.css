@@ -1,7 +1,12 @@
 *{
   font-family: 'Open Sans', sans-serif;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
 }
-
+.content{
+  background-color: black;
+}
 #Header a:hover{
   color: white;
   transition: 0.5s;
@@ -25,13 +30,13 @@ padding: 10px 20px 10px 20px;
 }
 .play-btn {
   width: 50px;
-  position: relative;
-  top: -40%;
+  position: absolute;
+  top: 50%;
   left: 42%;
   cursor: pointer;
   transition: 0.5s;
   opacity: 0;
 }
-.col-md-6:hover .play-btn{
+.col-md:hover .play-btn{
   opacity:1;
 }
