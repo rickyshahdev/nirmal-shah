@@ -5,6 +5,12 @@
 body {
   margin: 0;
   padding: 0;
+
+}
+.card-img {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .content{
   background-color: black;
@@ -13,11 +19,6 @@ body {
   color: white;
   transition: 0.5s;
 }
-/* #image{
-   height:inherit;
-   width:inherit;
-} */
-
 .card-img-overlay{
   text-align: center;
   margin-top: 100px;
@@ -47,3 +48,13 @@ padding: 10px 20px 10px 20px;
 .col-md:hover .play-btn{
   opacity:1;
 }
+
+@media only screen and (max-width: 600px)
+ {
+   .text-info {
+     align-items: center !important;
+   }
+ h1 {
+     padding-top: 0 !important;
+   }
+ }
