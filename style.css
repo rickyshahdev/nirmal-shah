@@ -12,9 +12,9 @@ body {
   flex-direction: column;
   min-height: 99vh;
 }
-/* .content{
-  background-color: black;
-} */
+.content{
+  background-color: rgba(44,43,48,0.8);
+}
 #Header a:hover{
   color: white;
   transition: 0.5s;
@@ -52,6 +52,7 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 0.5em;
+  background-color: white;
 }
 .development-icons i{
   width: 1.8em;
@@ -66,10 +67,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient 2s linear infinite;
+
 }
 .development-icons p {
   margin: 0.5em auto;
   font-size: 1em;
+
 }
 
 .development-icons div {
