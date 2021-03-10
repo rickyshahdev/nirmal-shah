@@ -31,9 +31,9 @@
                     <li class="nav-item "><a class="nav-link text-info" href="#projects">My Projects</a></li>
                     <li class="nav-item "><a class="nav-link text-info" href="#skills">Skills</a></li>
                     <li class="nav-item "><a class="nav-link text-info" href="#About">About Me</a></li>
-
-
                     <li class="nav-item "><a class="nav-link text-info" target="_blank" href="image/Nirmal-Shah.pdf">Resume</a></li>
+                   <li><a target="_blank" href="https://www.linkedin.com/in/nirmal-ricky-shah-b150441a7/"><i class="fa fa-linkedin-square fa-2x wow animate__fadeInDownBig"></i></a></li>
+                   <li><a target="_blank" href="https://github.com/rickyshahdev"><i class="fa fa-github fa-2x mx-3 md-6 wow animate__fadeInDownBig"></i></a></li>
                   </ul>
                 </div>
           </div>
@@ -48,8 +48,6 @@
         <h2 class="card-text wow animate__backInLeft animate__slower">I Am A Full-Stack Developer</h2>
       <div class= "link">
         <a target="_blank" href="mailto:shahricky@gmail.com"class="text-info email-link mx-3 md-6 wow animate__fadeInDownBig animate__slower">Get In touch</a>
-        <a target="_blank" href="https://www.linkedin.com/in/nirmal-ricky-shah-b150441a7/"><i class="fa fa-linkedin-square fa-2x wow animate__fadeInDownBig"></i></a>
-        <a target="_blank" href="https://github.com/rickyshahdev"><i class="fa fa-github fa-2x mx-3 md-6 wow animate__fadeInDownBig"></i></a>
       </div>
       </div>
     </div>
@@ -59,6 +57,15 @@
   <div id="projects">
     <div class="container tex-center">
     <span class="bg-dark text-white ">My Projects</span><hr class="bg-dark">
+    <div class="col-md card bg-dark wow animate__fadeInUp">
+      <h4><a target="_blank" href="https://unitebankfront.herokuapp.com/" >Unite Bank</i></a></h4>
+      <p class="bg-dark text-white mt-2" >A web banking app to connect multiple bank accounts and get their transactions all at one place. Technology used React, MongoDB, Node.js,Express.js,Redux, Jwt Authentication, Plaid Api </p>
+      <img src="image/uniteBank.png" class="img-fluid"alt="">
+      <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-7">
+        <a target="_blank" href="https://github.com/rickyshahdev/unitebankfront"><i class="fa fa-github fa-2x mx-3 md-6 "></i>Frontend</a>
+      <a class="text-right" target="_blank" href="https://github.com/rickyshahdev/Plaidapp/tree/master"><i class="fa fa-github fa-2x mx-3 md-6 float"></i>Backend</a>
+
+    </div><br>
       <div class="col-md card bg-dark wow animate__fadeInUp">
         <h4><a target="_blank" href="https://theguitarworld.herokuapp.com" >The Guitar World</i></a></h4>
         <p class="bg-dark text-white mt-2" >An app for buying guitars with authentication and only admin access to add,edit and delete.Used MongoDB,Express,Node.js and deployed to heroku. </p>
@@ -95,20 +102,16 @@
         <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-5">
           <a target="_blank" href="https://github.com/rickyshahdev/healthdiary"><i class="fa fa-github fa-2x mx-3 md-6 float"></i></a>
       </div><br>
-      <div class="col-md  card bg-dark wow animate__fadeInUp">
-        <h4><a href="#play-video-6" data-toggle="modal" data-target="#play-video-6">Guess Letter In Words</i></a></h4>
-        <p class="bg-dark text-white mt-2" >Guess letter In Word game. You have to guess correct letter for given word executed in terminal. Build using PHP</p>
-        <img src="image/gliw.png" class="img-fluid"alt="">
-        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-6">
-        <a target="_blank" href="https://github.com/rickyshahdev/guesslettersinword"><i class="fa fa-github fa-2x mx-3 md-6 float"></i></a>
-      </div><br>
+
       <div class="col-md  card bg-dark wow animate__fadeInUp">
         <h4><a target="_blank" href="https://share-app-ga.herokuapp.com/">Share App</i></a></h4>
         <p class="bg-dark text-white mt-2" >Share your feelings with images and blog posts through this app. This app is build using PostgreSQL,Express.js,React.js, and Node.js(PERN stack).</p>
         <img src="image/share.png" class="img-fluid"alt="">
-        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-7">
+        <img src="image/play_alt-512.webp" class="play-btn" data-toggle="modal" data-target="#play-video-6">
         <a target="_blank" href="https://github.com/rickyshahdev/share-app.git"><i class="fa fa-github fa-2x mx-3 md-6 float"></i></a>
       </div>
+      <!-- video modal -->
+      <!-- guitarworld -->
     <div class="modal fade" id="play-video-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -126,7 +129,7 @@
     </div>
   </div>
 </div>
-
+ <!-- restaurantonthego -->
     <div class="modal fade" id="play-video-2">
     <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -144,7 +147,7 @@
     </div>
     </div>
     </div>
-
+<!-- songdiary -->
     <div class="modal fade" id="play-video-3">
     <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -162,7 +165,7 @@
     </div>
     </div>
     </div>
-
+<!-- pokemonworld -->
     <div class="modal fade" id="play-video-4">
     <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -180,6 +183,7 @@
     </div>
     </div>
     </div>
+<!-- healthdiary -->
     <div class="modal fade" id="play-video-5">
     <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -198,26 +202,7 @@
     </div>
     </div>
 
-    <div class="modal fade" id="play-video-6">
-    <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Guess Letters In Words Game</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <video width="100%" controls>
-          <source src="./image/gliw.mp4" type="video/mp4" />
-        </video>
-      </div>
-    </div>
-    </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="play-video-7">
+  <div class="modal fade" id="play-video-6">
   <div class="modal-dialog modal-dialog-centered">
   <div class="modal-content">
     <div class="modal-header">
@@ -235,7 +220,24 @@
   </div>
   </div>
 
-    <div id="skills" class="section-wrapper"><div class="skills-inner-wrapper ">
+  <div class="modal fade" id="play-video-7">
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="staticBackdropLabel">Unite Bank</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <video width="100%" controls>
+        <source src="./image/uniteBank.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</div>
+</div>
+      <div id="skills" class="section-wrapper"><div class="skills-inner-wrapper ">
       <span class="bg-dark text-white ">Skills</span><hr class="bg-dark">
       <div class="development-icons">
         <div><i class="devicon-javascript-plain"></i><p>Javascript</p></div>
